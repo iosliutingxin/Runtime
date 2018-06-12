@@ -44,11 +44,16 @@
     objc_msgSend(p , @selector(eat));
 }
 
+-(void)dome02{
+    
+    NSURL *url = [NSURL URLWithString:@"中文.com"];
+    NSLog(@"%@",url);
+}
 
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
 
-    [self dome01];
+    [self dome02];
 }
 
 

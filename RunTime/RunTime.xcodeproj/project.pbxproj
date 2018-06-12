@@ -17,6 +17,8 @@
 		514F200120CEAC4F00B1FB16 /* RunTimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 514F200020CEAC4F00B1FB16 /* RunTimeUITests.m */; };
 		514F201020CEAD0C00B1FB16 /* person.m in Sources */ = {isa = PBXBuildFile; fileRef = 514F200F20CEAD0C00B1FB16 /* person.m */; };
 		514F201220CEB62900B1FB16 /* runtime_descrition.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 514F201120CEB62900B1FB16 /* runtime_descrition.PNG */; };
+		514F201520D0011000B1FB16 /* NSURL+NSURL_Exten.m in Sources */ = {isa = PBXBuildFile; fileRef = 514F201420D0011000B1FB16 /* NSURL+NSURL_Exten.m */; };
+		514F201820D00B0F00B1FB16 /* 方法欺骗.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 514F201720D00B0F00B1FB16 /* 方法欺骗.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,9 @@
 		514F200E20CEAD0C00B1FB16 /* person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = person.h; sourceTree = "<group>"; };
 		514F200F20CEAD0C00B1FB16 /* person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = person.m; sourceTree = "<group>"; };
 		514F201120CEB62900B1FB16 /* runtime_descrition.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = runtime_descrition.PNG; sourceTree = "<group>"; };
+		514F201320D0011000B1FB16 /* NSURL+NSURL_Exten.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURL+NSURL_Exten.h"; sourceTree = "<group>"; };
+		514F201420D0011000B1FB16 /* NSURL+NSURL_Exten.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURL+NSURL_Exten.m"; sourceTree = "<group>"; };
+		514F201720D00B0F00B1FB16 /* 方法欺骗.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "方法欺骗.PNG"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,11 +111,13 @@
 		514F1FDB20CEAC4D00B1FB16 /* RunTime */ = {
 			isa = PBXGroup;
 			children = (
-				514F201120CEB62900B1FB16 /* runtime_descrition.PNG */,
+				514F201620D00AD700B1FB16 /* 解释 */,
 				514F1FDC20CEAC4D00B1FB16 /* AppDelegate.h */,
 				514F1FDD20CEAC4D00B1FB16 /* AppDelegate.m */,
 				514F1FDF20CEAC4D00B1FB16 /* ViewController.h */,
 				514F1FE020CEAC4D00B1FB16 /* ViewController.m */,
+				514F201320D0011000B1FB16 /* NSURL+NSURL_Exten.h */,
+				514F201420D0011000B1FB16 /* NSURL+NSURL_Exten.m */,
 				514F200E20CEAD0C00B1FB16 /* person.h */,
 				514F200F20CEAD0C00B1FB16 /* person.m */,
 				514F1FE220CEAC4D00B1FB16 /* Main.storyboard */,
@@ -138,6 +145,15 @@
 				514F200220CEAC4F00B1FB16 /* Info.plist */,
 			);
 			path = RunTimeUITests;
+			sourceTree = "<group>";
+		};
+		514F201620D00AD700B1FB16 /* 解释 */ = {
+			isa = PBXGroup;
+			children = (
+				514F201720D00B0F00B1FB16 /* 方法欺骗.PNG */,
+				514F201120CEB62900B1FB16 /* runtime_descrition.PNG */,
+			);
+			path = "解释";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +262,7 @@
 				514F201220CEB62900B1FB16 /* runtime_descrition.PNG in Resources */,
 				514F1FE920CEAC4F00B1FB16 /* LaunchScreen.storyboard in Resources */,
 				514F1FE620CEAC4F00B1FB16 /* Assets.xcassets in Resources */,
+				514F201820D00B0F00B1FB16 /* 方法欺骗.PNG in Resources */,
 				514F1FE420CEAC4D00B1FB16 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +290,7 @@
 			files = (
 				514F1FE120CEAC4D00B1FB16 /* ViewController.m in Sources */,
 				514F1FEC20CEAC4F00B1FB16 /* main.m in Sources */,
+				514F201520D0011000B1FB16 /* NSURL+NSURL_Exten.m in Sources */,
 				514F201020CEAD0C00B1FB16 /* person.m in Sources */,
 				514F1FDE20CEAC4D00B1FB16 /* AppDelegate.m in Sources */,
 			);
